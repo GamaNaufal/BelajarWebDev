@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Saya</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #b0c4de;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      nav a {
+        margin-left: 20px;
+        text-decoration: none;
+        color: #2c3e50;
+        font-weight: bold;
+      }
+      .intro {
+        display: flex;
+        padding: 20px;
+        border-bottom: 1px solid #ffffff;
+        background-color: #f0f8ff;
+      }
+      .intro-text {
+        flex: 1;
+      }
+      .intro-image {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .intro-image img {
+        width: 100%;
+        max-width: 400px;
+        border-radius: 10px;
+      }
+      section {
+        padding: 20px;
+        text-align: center;
+      }
+      .biodata {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+      }
+      .biodata div {
+        border: 1px solid #aac4ff;
+        padding: 10px;
+        width: 150px;
+        background-color: #e6f0ff;
+        border-radius: 5px;
+      }
+      .portfolio-table {
+        margin: auto;
+        border-collapse: collapse;
+        width: 90%;
+      }
+      .portfolio-table td,
+      .portfolio-table th {
+        border: 1px solid #aac4ff;
+        padding: 10px;
+        text-align: center;
+        background-color: #f5faff;
+      }
+      .portfolio-table img {
+        width: 100%;
+        max-width: 350px;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div><strong style="color: #2c3e50">Gama's Space</strong></div>
+      <nav>
+        <a href="#header">Beranda</a>
+        <a href="#biodata">Tentang Saya</a>
+        <a href="#portfolio">Portofolio</a>
+      </nav>
+    </header>
+
+    <section class="intro" id="header">
+      <div class="intro-text">
+        <h2>Halo, Selamat Datang!</h2>
+        <p>
+          Di samping terpampang dengan jelas salah satu foto yang menurut survei
+          dia adalah top 3 orang terganteng di seluruh dunia
+        </p>
+        <a href="#" style="color: #4a6fa5">Pelajari Lebih Lanjut</a>
+      </div>
+      <div class="intro-image">
+        <img src="/BELAJARWEB/Sesi 1/Images/Ganteng.jpg" alt="Foto Ganteng" />
+      </div>
+    </section>
+
+    <section id="biodata">
+      <h2>About Me</h2>
+      <p>Kenalan singkat dengan saya:</p>
+      <div class="biodata">
+        <div>
+          Nama : <br />
+          Gama Naufal Afiyah
+        </div>
+        <div>
+          Pendidikan : <br />
+          Universitas Diponegoro
+        </div>
+        <div>
+          Pekerjaan : <br />
+          Mahasiswa
+        </div>
+        <div>
+          Kontak : <br />
+          IG: gamasalahhh
+        </div>
+        <div>
+          Hobi : <br />
+          Makan
+        </div>
+        <div>
+          Alamat : <br />
+          Rembang
+        </div>
+    </section>
+
+    <section id="portfolio">
+      <h2>Portofolio</h2>
+      <table class="portfolio-table">
+        <tr>
+          <td>
+            <img
+              src="/BELAJARWEB/Sesi 1/Images/Sumbing.jpg"
+              alt="Remed Sumbing"
+            /><br />
+            <strong>Remed Sumbing</strong><br />
+            Badai, next kasih understand
+          </td>
+          <td>
+            <img
+              src="/BELAJARWEB/Sesi 1/Images/Merbabu.jpg"
+              alt="Merbabu"
+            /><br />
+            <strong>Menamatkan Merbabu</strong><br />
+            Pendaki Sejati
+          </td>
+          <td>
+            <img
+              src="/BELAJARWEB/Sesi 1/Images/Ungaran.jpg"
+              alt="Ungaran"
+            /><br />
+            <strong>Menamatkan Ungaran</strong><br />
+            Ez banget
+          </td>
+        </tr>
+      </table>
+    </section>
+  </body>
+</html>
